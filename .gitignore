@@ -1,0 +1,14 @@
+# Configuración privada
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Archivos locales y temporales
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+*.tmp
+*~
