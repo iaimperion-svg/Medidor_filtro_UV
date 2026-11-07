@@ -1,0 +1,3 @@
+interface:
+  display_name: "Arduino del medidor UV"
+  short_description: "Integra los cambios de Kassian y verifica la placa"

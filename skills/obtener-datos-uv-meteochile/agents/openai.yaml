@@ -1,0 +1,3 @@
+interface:
+  display_name: "Datos UV de MeteoChile"
+  short_description: "Obtén y valida datos UV oficiales para el Arduino"
