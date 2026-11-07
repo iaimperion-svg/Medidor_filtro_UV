@@ -1,0 +1,4 @@
+interface:
+  display_name: "Datos UV Chile"
+  short_description: "Selecciona y valida datos UV de Chile"
+  default_prompt: "Usa $chile-uv-data para identificar y validar una fuente actual de índice UV en Chile."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Arduino Mega Hardware"
+  short_description: "Diseña alimentación y cableado del Mega"
+  default_prompt: "Usa $arduino-mega-hardware para definir el hardware y el cableado verificado del proyecto."
