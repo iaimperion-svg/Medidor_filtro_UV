@@ -26,6 +26,7 @@ El enlace diario contiene una fecha fija. Para seguimiento continuo hay que sele
 - Selecciona la estación por su código; comprueba el nombre como control adicional.
 - Elige la lectura válida más reciente por fecha y hora, sin asumir que el último elemento de una respuesta es el más nuevo. Evita que un dato retrasado sustituya uno posterior.
 - Distingue lectura reciente, máximo horario y máximo diario. Conserva los decimales disponibles; no uses un resumen redondeado como valor actual.
+- Contrasta API y tabla para la misma estación y marca temporal. La prueba documentada mostró enteros en la API y decimales distintos en la tabla; no inventes la precisión que falte ni presupongas que ambas representaciones son equivalentes.
 - Un punto, una celda vacía o un valor nulo significa falta de dato, no índice cero. Cero es válido cuando la fuente lo publica expresamente. No limites el índice a 11.
 - Conserva las marcas originales en UTC. Convierte para mostrar la hora local con la zona `America/Santiago`, sin fijar manualmente un desfase permanente.
 - Separa momento de medición, momento de consulta y, si existe, momento de generación del informe. La separación de cinco minutos entre registros no garantiza publicación inmediata ni disponibilidad continua.
