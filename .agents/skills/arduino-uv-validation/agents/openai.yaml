@@ -1,0 +1,4 @@
+interface:
+  display_name: "Validación UV Arduino"
+  short_description: "Prueba el sistema UV de extremo a extremo"
+  default_prompt: "Usa $arduino-uv-validation para probar y documentar el sistema UV completo."

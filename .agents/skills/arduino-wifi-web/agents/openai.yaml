@@ -1,0 +1,4 @@
+interface:
+  display_name: "Arduino WiFi Web"
+  short_description: "Implementa WiFi, HTTP y análisis web"
+  default_prompt: "Usa $arduino-wifi-web para implementar la obtención segura y robusta de datos web."

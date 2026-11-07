@@ -4,6 +4,8 @@
 !.env.example
 *.pem
 *.key
+secrets.h
+arduino_secrets.h
 
 # Archivos locales y temporales
 .DS_Store
@@ -12,3 +14,6 @@ Desktop.ini
 *.log
 *.tmp
 *~
+
+# Evidencia local: incluye respaldos del firmware anterior y rutas del equipo
+/artifacts/prueba_display/

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Display UV Arduino"
+  short_description: "Diseña la visualización del índice UV"
+  default_prompt: "Usa $arduino-uv-display para implementar una interfaz clara y verificable para el índice UV."
